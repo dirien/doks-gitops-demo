@@ -1,0 +1,8 @@
+name: doks-gitops
+runtime: go
+description: A Pulumi Go project for provisioning DigitalOcean Kubernetes cluster
+template:
+  config:
+    digitalocean:token:
+      description: DigitalOcean API token
+      secret: true
