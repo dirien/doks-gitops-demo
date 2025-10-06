@@ -1,0 +1,9 @@
+imports:
+  - pulumi-idp/do-dev
+
+config:
+  # Cluster configuration
+  doks-gitops:cluster-name: "doks-cluster-dev"
+  doks-gitops:region: "fra1"
+  doks-gitops:node-size: "s-4vcpu-16gb"
+  doks-gitops:node-count: "3"
