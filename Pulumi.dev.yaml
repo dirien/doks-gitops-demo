@@ -1,6 +1,7 @@
+imports:
+  - pulumi-idp/do-dev
+
 config:
-  # DigitalOcean API token - set this with: pulumi config set digitalocean:token YOUR_TOKEN --secret
-  digitalocean:token: ""
   # Cluster configuration
   doks-gitops:cluster-name: "doks-cluster-dev"
   doks-gitops:region: "fra1"
