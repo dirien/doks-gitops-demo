@@ -1,0 +1,3 @@
+name: doks-gitops-demo
+runtime: python
+description: Static website hosted on AWS S3
